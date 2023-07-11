@@ -3,8 +3,10 @@ public class Calculadora {
     int resultado = 0;
 
     if (operacao.equals("soma")) {
-      resultado = sum(num1, num2);
+      resultado = soma(num1, num2);
+      resultado = soma(num1,num2);
     } else if (operacao.equals("subtracao")) {
+      resultado = subtracao(num1, num2);
       resultado = subtracao(num1, num2);
     } else if (operacao.equals("multiplicacao")) {
       resultado = multiplicacao(num1, num2);
@@ -17,7 +19,7 @@ public class Calculadora {
     return resultado;
   }
 
-  private int sum(int num1, int num2) {
+  private int soma(int num1, int num2) {
     return num1 + num2;
   }
 
