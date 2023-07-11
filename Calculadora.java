@@ -4,7 +4,7 @@ public class Calculadora {
 
     if (operacao.equals("soma")) {
       resultado = soma(num1, num2);
-      resultado = soma(num1,num2);
+      resultado = sum(num1,num2);
     } else if (operacao.equals("subtracao")) {
       resultado = subtracao(num1, num2);
     } else if (operacao.equals("multiplicacao")) {
@@ -18,7 +18,7 @@ public class Calculadora {
     return resultado;
   }
 
-  private int soma(int num1, int num2) {
+  private int sum(int num1, int num2) {
     return num1 + num2;
   }
 
